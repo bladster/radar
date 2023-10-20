@@ -176,73 +176,11 @@
 </div>
 
     
-<div class="section"></div><div class="iparys_inherited">
 
-
-<div class="c-country-selection-layer component-wide l-grid l-grid--left-s l-grid--center-m js--country-selection-layer" data-cookie="country" data-cookie-value="global" data-cookie-validity="365" data-cookie-path="/">
-	<div class="c-country-selection-layer--container l-grid l-grid--w-100pc-s">
-		<div class="l-grid l-grid--w-100pc-s l-grid--left-m">
-
-
-			<div class="l-grid l-grid--w-100pc-m-s">
-				<div class="c-country-selection-layer--flag">
-					<span class="flag-icon flag-icon-global"></span>
-				</div>
-				<div class="c-country-selection-layer--copy-container l-grid l-grid--w-auto-s l-grid--middle-s l-grid--w-reset-m">
-					<span class="c-country-selection-layer--copy">You are in</span>
-					<span class="c-country-selection-layer--copy"><strong>&nbsp;Global</strong></span>
-				</div>
-			</div>
-
-			<div class="l-grid l-grid--w-100pc-m-s l-grid--w-100pc-s-l l-grid--w-100pc-s-m l-grid--w-100pc-s l-grid--w-reset-m">
-				<div class="base-button js--country-selection-layer-close c--country-selection-layer-close js--cookie-set" tabindex="0" data-tracking="{&quot;component&quot;:&quot;dhl/components/global/country-selection-layer&quot;}">
-	                <span>Stay on this site</span>
-	                </div>
-				<span class="c-country-selection-layer--base-copy l-grid l-grid--w-100pc-s l-grid--center-s l-grid--middle-s l-grid--w-reset-m l-grid--left-m">or</span>
-				<a href="/global-en/home/location-selector-redirect.html" class="base-button base-button--white" data-tracking="{&quot;component&quot;:&quot;dhl/components/global/country-selection-layer&quot;}">
-	                <span>Select a different location</span>
-	                </a>
-			</div>
-		</div>
-	</div>
-</div></div>
-
-
-
-
-    
-
-
-
-    <div class="c-global-newsflash--wrapper js--global-newsflash" data-jsonurl="/global/dhl/news-alerts.gnf.json" data-nosnippet>
-        <div class="c-global-newsflash component-wide l-grid l-grid--left-s l-grid--bottom-s l-grid--nowrap-m js-global-newsflash">
-            <div class="l-grid--w-90pc-s l-grid--w-90pc-m l-grid--left-m c-global-newsflash--content-wrapper">
-                <i class="c-global-newsflash-icon-alert icon-exception"></i>
-                <a data-linkname="newsflash" class="c-global-newsflash--copy js--global-newsflash--link c-global-newsflash--copy--mobile js-global-newsflash--copy--mobile link-internal link no-nowrap l-grid--hidden-m l-grid--visible-s has-icon" target="_blank" rel="noopener noreferrer" title="View Alerts that may impact DHL services">View Alerts that may impact DHL services
-                    <span class="sr-only">View Alerts that may impact DHL services</span>
-                </a>
-                <button class="c-global-newsflash-close link-icon icon-cancel js--global-newsflash-close" title="Close" aria-label="Close" tabindex="0">
-        <span class="sr-only">Close</span>
-      </button>
-            </div>
-        </div>
-    </div>
-
-
-	<!--googleon: all-->
-
-    <div class="l-view has-no-stage">
-        
-
-<div class="js--nav-padding-layer c-nav--padding-layer"></div>
         
 <main id="wcag-main-content">
     
 
-    
-        
-
-    
     <!--googleoff: all-->
  
 <nav class="c-component-breadcrumb l-grid" aria-label="breadcrumb">
@@ -251,15 +189,8 @@
 
 </nav>
 <!--googleon: all-->
-	
-
-
 
 <span class="link-anchor" id="parsysPath_ms_mf_container"></span>
-
-
-
-
 
 <div class="c-mf-container component-margin">
     
