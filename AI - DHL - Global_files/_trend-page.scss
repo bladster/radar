@@ -1,0 +1,481 @@
+#ltr6-wrapper {
+
+  // -----------------------------------------
+  // featured image
+  // -----------------------------------------
+  .ltr6-featured-image {
+    position: relative;
+    margin-bottom: 2rem;
+
+    .ltr6-headline {
+      position: absolute;
+      left:0;
+      bottom:0;
+      width: 100%;
+      height:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:before {
+        content:"";
+        position: absolute;
+        left:0;
+        top:0;
+        width: 100%;
+        height:100%;
+        background: transparent;
+        background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+        @include bp-medium {
+        height:100px;  
+        }
+      }
+    }
+    h1 {
+      color: #fff;
+      text-transform: uppercase;
+      z-index: 1;
+      margin:0;
+    }
+  }
+  // -----------------------------------------
+  // overview
+  // -----------------------------------------
+  .ltr6-trend-section-trend-overview {
+    padding-top: 1em;
+    h2 {
+      margin-bottom: 0.5em;
+    }
+    h5 {
+      margin-bottom: 0.5em;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: $color-grey;
+    }
+    // .base-button {
+    //   min-width: unset;
+    //   margin: 0 0.4em 0.4em 0;
+    //   span {
+    //     letter-spacing: unset !important;
+    //   }
+    //   @media print, screen and (max-width: 767px) {
+    //     width: auto;
+    //   }
+    // }
+    div.base-button {
+      cursor: default;
+    }
+
+    // .ltr6-overview-tag {
+    //   background-color: $color-grey-medium !important;
+    //   color: #fff !important;
+    //   text-transform: uppercase;
+    //   border-color: $color-grey-medium !important;
+    //   span {
+    //     text-transform: uppercase;
+    //     color: #fff !important;
+    //   }
+    //   @include bp-medium {
+    //     width: 100%;
+    //     margin-right:0;
+    //   }
+    // }
+
+
+    .ltr6-realization-tag,
+    .ltr6-impact-meter {
+      background-color: $color-grey-medium !important;
+      border: none !important;
+      text-transform: uppercase;
+      // color: $color-grey;
+      width: 100%;
+      // &:before {
+      //   content:"";
+      //   background: $color-text;
+      //   position: absolute;
+      //   top:0;
+      //   left:0;
+      //   height: 100%;
+      // }
+      min-height: 3.1rem !important;
+
+      .ltr6-impact-meter-bar {
+        background: $color-text;
+        position: absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 4.5rem;
+      }
+      color: #fff !important;
+      span {
+        text-transform: uppercase;
+        color: #fff !important;
+        z-index: 1;
+      }
+    }
+
+    // $sizes: (
+    //   "10": 10%,
+    //   "15": 15%,
+    //   "20": 20%,
+    //   "25": 25%,
+    //   "30": 30%,
+    //   "35": 35%,
+    //   "40": 40%,
+    //   "45": 45%,
+    //   "50": 50%,
+    //   "55": 55%,
+    //   "60": 60%,
+    //   "65": 65%,
+    //   "70": 70%,
+    //   "75": 75%,
+    //   "80": 80%,
+    //   "85": 85%,
+    //   "90": 90%,
+    //   "95": 95%,
+    //   "100": 100%
+    // );
+    // @each $name, $size in $sizes {
+    //   .ltr6-impact-#{$name}pc:before {
+    //     width: $size;
+    //   }
+    // }
+
+    // now done with inline style and percetage
+
+  }
+
+
+
+  .ltr6-trend-section-trend-overview {
+    h2 {
+      color: $color-blue;
+    }
+    // .base-button:not(.ltr6-overview-tag) {
+    //   background-color: $color-faded-blue;
+    //   border-color: $color-faded-blue;
+    //   color: $color-black;
+    //   span {
+    //     color: $color-black;
+    //   }
+    // }
+  }
+  .ltr6-technology-trend {
+    .ltr6-trend-section-trend-overview {
+      h2 {
+        color: $color-blue;
+      }
+      // .base-button:not(.ltr6-overview-tag) {
+      //   background-color: $color-faded-blue;
+      //   border-color: $color-faded-blue;
+      //   color: $color-blue-on-faded-blue;
+      //   &:hover {
+      //     border-color: $color-blue;
+      //   }
+      //   &:not(.is-disabled):focus {
+      //     box-shadow: 0 0 0 0.2rem hsl(0deg 0% 100% / 94%), 0 0 0 0.4rem $color-blue;
+      //   }
+      // }
+    }
+  }
+  .ltr6-social-and-business-trend {
+    .ltr6-trend-section-trend-overview {
+      h2 {
+        color: $color-green;
+      }
+      // .base-button:not(.ltr6-overview-tag) {
+      //   background-color: $color-faded-green;
+      //   border-color: $color-faded-green;
+      //   color: $color-green-on-faded-green;
+      //   &:hover {
+      //     border-color: $color-green;
+      //   }
+      //   &:not(.is-disabled):focus {
+      //     box-shadow: 0 0 0 0.2rem hsl(0deg 0% 100% / 94%), 0 0 0 0.4rem $color-green;
+      //   }
+      // }
+    }
+  }
+
+
+  // -----------------------------------------
+  // factoid
+  // -----------------------------------------
+  .ltr6-trend-section-factoid {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+    figure {
+      // max-width: 1000px;
+      margin:0 auto;
+    }
+  }
+  .ltr6-technology-trend {
+    .ltr6-factoid {
+      h1,h2,h3,h4,h5,h6 {
+        color: $color-blue;
+      }
+    }
+  }
+  .ltr6-social-and-business-trend {
+    .ltr6-factoid {
+      h1,h2,h3,h4,h5,h6 {
+        color: $color-green;
+      }
+    }
+  }
+
+  // -----------------------------------------
+  // Relevance to the Future of Logistics
+  // -----------------------------------------
+  .ltr6-trend-section-relevance-to-the-future {
+    .ltr6-pad1 {
+      padding-top: 2.5em;
+      padding-bottom: 2.5em;
+      padding-left: 2.5em;
+    }
+    @include bp-medium {
+      .ltr6-image-fill {
+        min-height: 200px;
+      }
+      .ltr6-pad1 {
+        padding-left: 2.1rem;
+        padding-right: 2.1rem;
+      }
+    }
+  }
+
+
+  // -----------------------------------------
+  // challenges
+  // -----------------------------------------
+  .ltr6-trend-section-challenges {
+    // padding: 2rem 0 4rem 0;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    .ltr6-challenges-block {
+      display: none;
+      &.active {
+        display: flex;
+      }
+    }
+    .base-button {
+      margin-left: 0.2em;
+      margin-right: 0.2em;
+    }
+    .ltr6-challenges-icon {
+      // border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      // padding: 7px;
+      path {
+        fill: $color-green;
+      }
+
+      @include bp-medium {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  .ltr6-technology-trend {
+    .ltr6-trend-section-challenges {
+      .ltr6-challenges-icon {
+        path {
+          fill: $color-blue;
+        }
+      }
+    }
+  }
+
+  // -----------------------------------------
+  // outlook
+  // -----------------------------------------
+  .ltr6-trend-section-outlook {
+    h2 {
+      margin-bottom: 1rem;
+    }
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    .ltr6-outlook-icon-block {
+      font-size: 2rem;
+      line-height: 2.6rem;
+      span {
+        display: block;
+      }
+      strong {
+        font-size: 3rem;
+        font-weight: 800;
+      }
+      .ltr6-outlook-icon {
+        width: 100px;
+        margin-bottom: 1rem;
+        path {
+          fill: $color-green;
+        }
+        @include bp-medium {
+          width: 160px;
+        }
+
+      }
+    }
+    // @include bp-medium {
+    //   > div {
+    //     flex-flow: column-reverse;
+    //   }
+    // }
+  }
+  .ltr6-technology-trend {
+    .ltr6-trend-section-outlook {
+      .ltr6-outlook-icon {
+        path {
+          fill: $color-blue;
+        }
+      }
+    }
+  }
+
+
+  // -----------------------------------------
+  // dhl solution
+  // -----------------------------------------
+  .ltr6-trend-section-dhl-resources {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid $color-grey-light2;
+    .ltr6-solutions-icon {
+      // border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      // padding: 7px;
+      path {
+        fill: $color-green;
+      }
+      @include bp-medium {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  .ltr6-technology-trend {
+    .ltr6-solutions-icon {
+      path {
+        fill: $color-blue;
+      }
+    }
+  }
+  .ltr6-trend-section-dhl-resources,
+  .ltr6-trend-section-related-trends {
+    ul {
+      list-style: none;
+      margin:0;
+      padding:0;
+      li {
+        $padding: 1em;
+        padding-bottom: $padding;
+        padding-left: $padding * 0.5;
+        padding-right: $padding * 0.5;
+        @include bp-medium {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  // -----------------------------------------
+  // related trends
+  // -----------------------------------------
+  .ltr6-trend-section-related-trends {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+  }
+
+  // -----------------------------------------
+  // video
+  // -----------------------------------------
+  .ltr6-trend-section-video {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    border-bottom: 1px solid $color-grey-light2;
+  }
+
+  // -----------------------------------------
+  // sources
+  // -----------------------------------------
+  .ltr6-trend-section-sources {
+    h5 {
+      margin-bottom: 1rem;
+    }
+    li {
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 1.3;
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      a {
+        font-weight: 400;
+        font-size: 1.3rem;
+        display: inline;
+        &:after {
+          position: absolute;
+        }
+        &:not(.is-disabled):focus {
+          box-shadow: 0 0 0 0px hsl(0deg 0% 100% / 94%), 0 0 0 1px $color-red;
+        }
+      }
+    }
+    @include bp-medium {
+      padding-left: 3.2rem;
+      padding-right: 3.2rem;
+    }
+  }
+
+
+
+  .ltr6-technology-trend {
+    .c-marketing-stage--headline {
+      color: $color-blue;
+    }
+  }
+  .ltr6-social-and-business-trend {
+    .c-marketing-stage--headline {
+      color: $color-green;
+    }
+  }
+  .c-marketing-stage--textbox .c-marketing-stage--headline {
+    margin-bottom: 0.3em;
+  }
+
+  .ltr6-technology-trend,
+  .ltr6-social-and-business-trend {
+    .ltr6-section-feedback {
+      padding-top:2rem;
+    }
+    .ltr6-section-session-request,
+    .ltr6-section-feedback {
+      // padding-top: 1rem;
+      // padding-bottom: 5rem;
+      // margin-bottom: 5rem;
+      .base-button {
+        background-color: $color-red;
+        border-color: $color-red;
+        &:hover {
+          background-color: #367abb;
+          border-color: #367abb;
+        }
+        &:not(.is-disabled):focus {
+            -webkit-box-shadow: 0 0 0 0.2rem hsl(0deg 0% 100% / 94%), 0 0 0 0.4rem $color-red;
+            box-shadow: 0 0 0 0.2rem hsl(0deg 0% 100% / 94%), 0 0 0 0.4rem $color-red;
+        }
+      }
+    }
+  }
+
+}
